@@ -1,33 +1,20 @@
-@font-face {
-    font-family: 'MedievalSharp-Regular';
-    src: url('../fonte/MedievalSharp-Regular.ttf') format('truetype');
-  }
-#navbar{    
-    background-color: black;
-    padding-top: 30px;
-}
+/* NAVBAR */
 #logo{
-    height: 90px;
-    width: 150px;
-    margin-left: 30px;
-    margin-bottom: 30px;
+    height: 100px;
+    width: 230px;
 }
-#papel{
-    color: white;
-    font-family: 'MedievalSharp-Regular';
-    color: rgb(135, 33, 33);
-    font-size: 30px;
-    margin: 100px 0 0 10px;
-    margin-top: 800px;
-
-}
-#king{
-    background-color: aqua;
-    height: 100%;
+#loglogo{
+    color: brown;
+    font-size: 25px;
+    font-weight: 500;
     
+    
+}   
+nav,#navbar{
+    background-color: black;
+}   
+nav,#navBottom{
+    background-color: rgba(100, 6, 6, 0.905);
 }
-#pagina{
-    background-color: bisque;
-    height: 800px;
-}
+
 
