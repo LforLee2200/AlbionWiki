@@ -16,5 +16,14 @@ nav,#navbar{
 nav,#navBottom{
     background-color: rgba(100, 6, 6, 0.905);
 }
-
-
+/* Conteudo */
+div#sliderdiv{
+    height: 600px;
+    background-image: url(../img/bg-slider.jpg);
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+#carouselExampleIndicators{
+    height: 600px;
+}
