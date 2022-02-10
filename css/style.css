@@ -18,12 +18,16 @@ nav,#navBottom{
 }
 /* Conteudo */
 div#sliderdiv{
-    height: 600px;
+    height: 250px;
     background-image: url(../img/bg-slider.jpg);
     background-size:cover;
     background-repeat: no-repeat;
     background-position: center;
 }
-#carouselExampleIndicators{
-    height: 600px;
+div.carousel-inner{
+    height: 500px ;
 }
+div#carouselExampleIndicators,.carousel-inner{
+    height: 200px;
+}
+@media
